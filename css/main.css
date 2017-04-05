@@ -1,0 +1,45 @@
+body {
+	color: tomato;
+	text-align: center;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 5px 15px 0 15px;
+	font-family: 'Arial';
+	cursor: pointer;
+}
+
+nav li:hover {
+	color: white;
+}
+
+main {
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+
+aside {
+	width: 30%;
+	float: right;
+}
+
+footer {
+	clear: both;
+}
+
+h1 {
+	text-transform: lowercase;
+}
+
+.wrapper {
+	background-color: grey;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.hero {
+	width: 100%;
+}
